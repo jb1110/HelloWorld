@@ -2,7 +2,7 @@ package com.yedam;
 
 public class JSExe {
 	public static void main(String[] args) {
-		// 임의의 수를 생성. 1 ~ 10 사이의 임의의 값 생성.
+		// 임의의 수를 생성. 1 ~ 100 사이의 임의의 값 생성.
 		// 1 <= x < 11
 		int sum = 0;
 		for(int i = 1; i <= 5; i++) {
