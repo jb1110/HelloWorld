@@ -62,18 +62,22 @@ public class JSExe {
 //		}
 //		System.out.println("end of prog.");
 //	} // end of test4
-	
+
 	public static void testname() {
 
 		Scanner scn = new Scanner(System.in);
-		String  str = "친구목록은 ";
+		String str = "친구목록은 ";
 		while (true) {
 			System.out.println("친구이름 입력 하시오. 종료하려면 quit>>");
 			String msg = scn.nextLine();
 			// equals로 비교
 			if (msg.equals("quit")) {
+				if (str.endsWith(", ")) {
+					str = str.substring(0, str.length() - 2);
+				}
 				str += " 입니다";
 				break;
+				
 			}
 			str += msg + ", ";
 		}
