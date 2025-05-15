@@ -22,7 +22,8 @@ public class JSExe {
 //		test3();
 //		testn();
 //		test4();
-		testname();
+//		testname();
+		test5();
 	}
 
 	// 메서드로 따로 정의
@@ -35,7 +36,15 @@ public class JSExe {
 		}
 		System.out.println("결과: " + sum); // 최종 결과 출력
 	} // end of testrandom
-
+	
+	public static void test5() {
+		// printf ("형식문자열", 값1, 값2...)
+//		System.out.printf("%s %.2f\t", "문자", 30.3);
+		System.out.printf("%s %d %.1f\t \n", "홍길동", 100, 23.9); //%s 문자, %d 정수 %f 실수
+		System.out.printf("안녕하세요.\n %s입니다.\n나이는 %d세입니다.\n몸무게는 %.1f입니다.", "이정빈", 27, 70.5);  
+		// "홍길동", 100, 23.9
+	} // end of test5
+	
 //	public static void testn() {
 //        String str1 = "hello";
 //        String str2 = "hello";
@@ -77,7 +86,6 @@ public class JSExe {
 				}
 				str += " 입니다";
 				break;
-				
 			}
 			str += msg + ", ";
 		}
