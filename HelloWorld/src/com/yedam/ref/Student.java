@@ -9,5 +9,5 @@ public class Student {
 	String studentName; // 이름지정
 	int score;	// 점수지정
 	double height; // 키
-	String gender;
+	Gender gender;
 }
