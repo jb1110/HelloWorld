@@ -65,5 +65,7 @@ public class Board {
 		strFormat += " 내용: %s";
 		System.out.printf(strFormat, boardNo, writer, title, content);
 	}
+	
+	
 
 }
